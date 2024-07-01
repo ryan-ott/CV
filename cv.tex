@@ -129,25 +129,43 @@
 %----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+% \section{Summary}
+% This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
 
 %Experience
 \section{Work Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Product Management} & \hfill Jan 2021 - present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{AI for Space Standards Analysis} | European Space Agency & \hfill Noordwijk, Aug 2024 - Oct 2024 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+        Responsible for developing AI models to analyze and predict new space standard requirement documents.
+    \end{minipage}
+}  \\
 \end{tabularx}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Technical Support} & \hfill Mar 2019 - Jan 2021 \\[3.75pt]
+\textbf{Checkout, Product Management} | Adyen & \hfill Amsterdam, Apr 2023 - Jul 2024 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
-\begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] long long line of blah blah that will wrap when the table fills the column width
-        \item[--] again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-    \end{itemize}
+    \begin{minipage}[t]{\linewidth}
+        Managing the deprecation of a legacy feature in Adyen's Checkout and refining the product's documentation.
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+            \item[--] Topic extraction and sentiment analysis of internal communications to improve technical documentation.
+            \item[--] Collaborated with Account Management teams both internal and external to ensure smooth transition for merchants.
+        \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Technical Support} | Adyen & \hfill Amsterdam, Nov 2021 - Apr 2023 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    \begin{minipage}[t]{\linewidth}
+        Customer facing role, responsible for setting up and configuring merchant accounts.
+        \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+            \item[--] Collaborated with financial teams to handle acquiring of funds and settlements.
+            \item[--] Worked with developers to integrate payment methods and provide technical support.
+        \end{itemize}
     \end{minipage}
 }
 \end{tabularx}
@@ -156,8 +174,17 @@ This CV can also be automatically complied and published using GitHub Actions. F
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{Transformer for Summarisation}\\% & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    Bachelor thesis project, implementing and training an encoder-decoder transformer model from scratch on only a single GPU in 12 hours to generate summaries of news articles.
+}\\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Investigating Visually Grounded Language Embeddings}\\% & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+    Research project, probing the language embedding space of a pre-trained vision-and-language model to understand how incorporating visual information affects the language embeddings. First place at the UvA \textit{Interpretability and Explainbility in AI} conference.
+}\\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -188,11 +215,11 @@ This CV can also be automatically complied and published using GitHub Actions. F
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+\textbf{Languages} & English (native), German (native), Dutch (native), Russian (elementary) \\
+\textbf{Programming} & Python, PyTorch, TensorFlow, Pandas, C\#, Java, SQL, HTML, CSS, Git, LaTeX
 \end{tabularx}
 
-\vfill
+% \vfill
 \center{\footnotesize Last updated: \today}
 
 \end{document}
